@@ -1,0 +1,85 @@
+@import "header";
+@import "info";
+@import "top";
+@import "pikup";
+@import "main";
+@import "footer";
+@import "topbtn";
+@import "remodal-search";
+@import "remodal-menu";
+
+
+
+
+*{
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+  color: #fff;
+}
+
+
+
+.fadeIn {
+
+	animation: fadeIn 0.6s ease 0s 1 both;
+}
+
+.fadeInUp {
+
+	animation: fadeInUp 0.8s ease 0s 1 both;
+}
+.fadeInDown {
+
+	animation: fadeInDown 0.7s ease 0s 1 both;
+}
+.delay-0_2s {
+	animation-delay: 0.2s;
+}
+.delay-0_4s {
+	animation-delay: 0.4s;
+}
+.delay-0_5s {
+	animation-delay: 0.5s;
+}
+.delay-0_6s {
+	animation-delay: 0.6s;
+}
+.delay-0_8s {
+	animation-delay: 0.8s;
+}
+.delay-1s {
+	animation-delay: 1s;
+}
+
+
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+@keyframes fadeInUp {
+	0% {
+		opacity: 0;
+		transform: translateY(10px);
+	}
+	100% {
+		opacity: 1;
+  }
+}
+
+@keyframes fadeInDown {
+	0% {
+		opacity: 0;
+		transform: translateY(-10px);
+	}
+	100% {
+		opacity: 1;
+	}
+}
