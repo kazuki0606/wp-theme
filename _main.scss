@@ -3,7 +3,7 @@
     margin-bottom: 25px;
 
     .inner{
-      max-width: 1166px;
+      max-width: 1500px;
       margin: 0 auto;
       display: flex;
       justify-content: flex-start;
@@ -12,8 +12,7 @@
       background-color: #ffffff;
       &-left{
         margin-right: 2%;
-        width: 728px;
-        max-width: 728px;
+       flex: 2;
 &-list{
   display: flex;
   justify-content: space-between;
@@ -315,8 +314,7 @@ img{
 
 .sidebar{
   font-size: 88%;
-  width: 336px;
-  max-width: 34%;
+flex: 1;
 
   margin-top: 0;
   margin-left: auto;
