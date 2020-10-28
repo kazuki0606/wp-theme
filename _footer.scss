@@ -1,15 +1,50 @@
 footer{
-
-    background-color: #666666;
-    color: #CACACA;
-
-    .footer-inner{
-      padding: 35px;
-      font-size: 88%;font-size: 88%;
-      max-width: 1166px;
-    margin: 0 auto;
-    .footer-bottom{
+background-image: url(img/bg_pattern.gif);
 text-align: center;
+padding:3em;
+
+
+ul{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 2em auto;
+  max-width: 50%;
+  
+  
+  li{
+  
+    margin-right: 3em;
+    a{
+      color: navy;
+      font-size: 1.2em;
+      font-weight: bold;
+      font-family: 'HanziPen SC',sans-serif;
     }
+  }
+  
+  }
+
+}
+
+@media (max-width:768px){
+  footer{
+    padding:1em;
+    ul{
+
+
+max-width: 100%;
+justify-content:start;
+li{
+  width: 30%;
+margin:0 auto;
+a{
+
+  font-size: 0.8em;
+  font-weight: bold;
+}
+}
+
+  }
   }
 }

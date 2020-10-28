@@ -1,0 +1,308 @@
+.second{
+text-align:center;
+padding:65px;
+overflow: hidden;
+
+&-inner{
+  max-width: 1200px;
+  margin: 0 auto;
+
+
+h2{
+  padding-bottom: 1em;
+  font-size:3em;
+  color: navy;
+}
+
+.painting-img{
+  position: relative;
+margin-bottom: 40px;
+z-index: 1;
+img{
+  width: 100%;
+  height: auto;
+
+}
+
+}
+
+.ikimono{
+  height: 1160px;
+&-1{
+  position: relative;
+  img{
+    position: absolute;
+  }
+  .i1{
+    top: -100px;
+    right: -10px;
+width: 40%;
+height: auto;
+  }
+  .i2{
+
+    top: 540px;
+    left: 230px;
+  }
+  .i3{
+
+    top: 780px;
+    left: -190px;
+}
+  }
+
+  &-2{
+
+position: relative;
+
+img{
+  position: absolute;
+}
+
+.i4{
+  top: 1090px;
+    left: 200px;
+}
+.i5{
+  top: 970px;
+  right: 650px;
+}
+.i6{
+  top: 940px;
+  right: 430px;
+
+}
+.i7{
+  top: 1000px;
+  right: 350px;
+
+}
+.i8{
+  top: 720px;
+  right: 4px;
+  z-index: -1;
+
+}
+.i9{
+  top: 852px;
+  right: 70px;
+
+}
+.i10{
+  top: 889px;
+  right: -129px;
+  z-index: -2;
+
+
+}
+.i11{
+  top: 500px;
+  right: -60px;
+  z-index: -3;
+}
+
+
+
+  }
+
+&-text{
+  text-align: left;
+  width: 520px;
+  margin: 0;
+  margin-bottom: 20px;
+  p{
+    margin-bottom: 20px;
+  }
+.ikimono-btn{
+  
+  width:200px;
+  height: 100px;
+  margin: 0 auto;
+  img{
+    width: 100%;
+    height: auto;
+  }
+}
+}
+
+}
+}
+}
+
+
+
+@media (max-width: 1190px) and (min-width: 1024px){
+  .second{
+   
+    
+    &-inner{
+   
+    
+  
+ 
+    
+    .ikimono{
+      height: 1160px;
+    &-1{
+      position: relative;
+      img{
+        width: 100%;
+      }
+      .i1{
+        top: -150px;
+        right: -160px;
+        width: 60%;
+      }
+
+      .i2{
+
+        top: 550px;
+        left: -20px;
+        width: 40%;
+        z-index: -1;
+      }
+      .i3{
+
+        top: 720px;
+        left: -45px;
+        width: 40%;
+    }
+  
+}
+}
+}
+  }
+}
+
+
+
+
+
+@media (max-width:768px){
+
+  .second{
+    text-align:center;
+    padding:25px;
+    overflow: hidden;
+    h2{
+      font-size: 2em;
+    }
+    
+    &-inner{
+      max-width: 1200px;
+      margin: 0 auto;
+.ikimono{
+  height: auto;
+ 
+&-1{
+  position: relative;
+  display: none;
+  img{
+    position: absolute;
+    width: 100%;
+  }
+  .i1{
+    top:-360px;
+    right: -55px;
+z-index: -1;
+width: 50%;
+  }
+  .i2{
+
+    top: -45px;
+    left: -20px;
+    width: 30%;
+    z-index: -1;
+  }
+  .i3{
+
+    top: -45px;
+    left: 240px;
+    width: 20%;
+}
+  }
+
+  &-2{
+
+position: relative;
+display: none;
+img{
+  position: absolute;
+  width: 100%;
+}
+
+.i4{
+  top: 830px;
+    left: 0px;
+    width: 40%;
+}
+.i5{
+  top: 790px;
+  right: -40px;
+  width: 40%;
+}
+.i6{
+  top: 780px;
+  left:-20px;
+  width: 20%;
+}
+.i7{
+  top: 850px;
+  right: 100px;
+  width: 20%;
+}
+.i8{
+  top: 840px;
+  right: -40px;
+  z-index: -1;
+  width: 20%;
+}
+.i9{
+  top: 830px;
+  right: 70px;
+  width: 20%;
+}
+.i10{
+  top: 750px;
+  right: 10px;
+  z-index: -2;
+  width: 30%;
+
+}
+.i11{
+  top: 710px;
+  right: 0px;
+  z-index: -3;
+  width: 30%;
+}
+
+
+
+  }
+
+&-text{
+  text-align: left;
+  width: 100%;
+  margin: 0;
+  margin-bottom: 20px;
+  p{
+    margin-bottom: 20px;
+  }
+.ikimono-btn{
+  
+  width:120px;
+  height: 100px;
+  margin: 0 auto;
+  img{
+    width: 100%;
+    height: auto;
+  }
+}
+}
+
+}
+
+}
+
+  }
+}

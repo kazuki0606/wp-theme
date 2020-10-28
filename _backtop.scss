@@ -1,0 +1,46 @@
+#backtop{
+
+  position: fixed;
+  right: 20px;
+  bottom: 10px;
+  z-index: 10;
+  transition: all 0.2s ease-out;
+  &:hover{
+    animation: hurueru .1s infinite;
+  }
+
+  a{
+ 
+      text-decoration: none;
+      width: 55px;
+      height: 55px;
+      border-radius: 3px;
+    
+   
+      padding: 0;
+      display: block;
+      img{
+        width: 100%;
+        height: auto;
+      }
+    
+    }
+
+
+}
+
+
+@media (max-width:768px){
+
+  #backtop{
+
+
+    a{
+   
+
+width: 25px;
+height: 24px;
+
+}
+  }
+}
